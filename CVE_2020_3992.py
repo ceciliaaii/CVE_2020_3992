@@ -15,7 +15,7 @@ poc = header + daadvert
 tcpClientSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # Edit your server ip
-ipaddr = input("请输入测试的IP地址：")
+ipaddr = input("请输入IP地址：")
 serverAddr = (ipaddr, 427)
 tcpClientSocket.connect(serverAddr)
 print('connect success!!!')
